@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Palace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <section class="nav-bar">
+
+            <header>
+                <div class="col-md-4">
+                    <a href="#" class="logo"><img src="assests/Logo.png"></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="nav-text">
+                        <h2>“Our mission is to WOW people every day!”
+                        </h2>
+                        <p>Foodie Palace aims to connect the neighborhood to a dining experience in the same way
+                            ingredients are connected to food.</p>
+                        <p>To provide our guests with a comfortable, quality, and satisfying dining experience using
+                            local, seasonal ingredients in classic dishes paired with select wine.To serve everyone
+                            better than anyone else.</p>
+                        <p style="font-size: 40px;">A Passion To Serve</p>
+                    </div>
+                </div>
+            </header>
+
+        </section>
+
+
+        <section class="main">
+            <div class="container">
+                <div class="card">
+                    <div class="contentbx">
+                        <h2>Dishes </h2>
+                        <ul>
+                            <li>Panner bhuri</li>
+                            <li>Thandoori chicken</li>
+                            <li>Chicken fry </li>
+                            <li>Kheema mutter</li>
+                            <span><button type="button" class="btn" data-toggle="modal"
+                                    data-target="#DishModal">MORE</button></span>
+                        </ul>
+                    </div>
+                    <div class="content">
+                        <div class="image">
+                            <img src="assests/chicken.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="contentbx">
+                        <h2>Drinks</h2>
+                        <ul>
+                            <li>Tiki Tiki Rum</li>
+                            <li>Skipper sipper</li>
+                            <li>ka-blue-iei </li>
+                            <li>Ginger's pear-adise</li>
+                            <span><button type="button" class="btn" data-toggle="modal"
+                                    data-target="#DrinksModal">MORE</button></span>
+
+                        </ul>
+                    </div>
+                    <div class="content">
+                        <div class="image">
+                            <img src="assests/beer.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="contentbx">
+                        <h2>Desserts</h2>
+                        <ul>
+                            <li>Fruta fresca</li>
+                            <li>German apple pie</li>
+                            <li>Chocolate E-menta </li>
+                            <li>Butterscotchy crunch</li>
+                            <span><button type="button" class="btn" data-toggle="modal"
+                                    data-target="#Modal">MORE</button></span>
+                        </ul>
+                    </div>
+                    <div class="content">
+                        <div class="image">
+                            <img src="assests/icecream.png" height="111px" width="122px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="buffet-container">
+            <div class="buffet-card">
+                <div class="buffet-content">
+                    <h1>Buffet prices</h1>
+                    <div class="grid">
+                        <div class="buffetlist">
+                            <div class="text">
+                                <span class="buff">Seafood brunch buffet
+                                    12:30 PM to 03:30 PM</span>
+                                <span class="day">SUN</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="money">1299</span>
+                            <span class="tax">exclusive of all taxes</span>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="buffetlist">
+                            <div class="text">
+                                <span class="buff">Brunch buffet Price 12:30 PM to 03:30 PM</span>
+                                <span class="day">TUE to FRI</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="money">999</span>
+                            <span class="tax">exclusive of all taxes</span>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="buffetlist">
+                            <div class="text">
+                                <span class="buff">Dinner buffet 07:30 PM to 11:00 PM </span>
+                                <span class="day">SUN to WED</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="money">1399</span>
+                            <span class="tax">exclusive of all taxes</span>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="buffetlist">
+                            <div class="text">
+                                <span class="buff">Edge Steakhouse buffet
+                                    1:30 PM to 05:30 PM</span>
+                                <span class="day">WED to SAT</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="money">2999</span>
+                            <span class="tax">exclusive of all taxes</span>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="buffetlist">
+                            <div class="text">
+                                <span class="buff">Fresco Italiano buffet
+                                    2:30 PM to 07:30 PM</span>
+                                <span class="day">SUN</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span class="money">599</span>
+                            <span class="tax">exclusive of all taxes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="reserve">
+            <input type="button" value="Reserve a table" onclick="reserve()">
+        </div>
+
+        <section class="interior">
+            <div class="row">
+                <div class="col-sm-12 col-md-10">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="assests/slide1.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assests/slide2.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assests/slide3.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assests/slide4.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assests/slide5.jpg">
+                            </div>
+                        </div>
+                        <div class="int-main">
+                            <h1 class="int-heading">INTERIOR... <span class="camera"><img class="camera"
+                                        src="assests/pics.png" height="350px" width="353px"></span> </h1>
+
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="reserve">
+            <input type="button" value="Reserve a table" onclick="reserve()">
+        </div>
+
+        <footer>
+            <div class="containerf">
+                <div class="foot about">
+                    <h2>About-us</h2>
+                    <p>Make amazing food – offer warm welcoming service – give back to the neighborhood – run an
+                        efficient,
+                        profitable business – make flour a better place for both our customers and ourselves.To help
+                        citizens of the world live better by making healthy food convenient & affordable.</p>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <div class="contact">
+                        <img class="map" src="assests/placeholder.png" height="100px" width="100px" alt="map">
+                        <p class="address">41-2-854/G , Food street , Hyderabad</p>
+                        <p>500070</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <!-- Modals -->
+        <div class="modal fade" id="DishModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Dishes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>Morcella Cheese</li>
+                            <li>Anishinaabeg Manoomin</li>
+                            <li>Kirschtorte</li>
+                            <li>Chicken Biriyani</li>
+                            <li>Lamb Kebabs</li>
+                            <li>Peanut Butter and Jelly</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="DrinksModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Drinks</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>Mockmosa</li>
+                            <li>Poinesettia</li>
+                            <li>Nojito tail</li>
+                            <li>Hurricane Mocktail</li>
+                            <li>Virgin mary</li>
+                            <li>Pina colada</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Desserts</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>Marble cake</li>
+                            <li>Bulla cake</li>
+                            <li>Zuger Kirschtorte</li>
+                            <li>Browine</li>
+                            <li>Friand</li>
+                            <li>Eccles pastrey</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".buffet-card"), {
+        max: 25,
+        speed: 100,
+        glare: true,
+        "max-glare": 0.3,
+    });
+</script>
+</html>
